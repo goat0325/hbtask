@@ -13,7 +13,7 @@
 
 1. インストール<br>
 ローカルマシンがmacのIntelであったため、画像のものをインストール
-![VirtualBoxをインストール](img/VirtualBoxをインストール.png)
+![VirtualBoxをインストール](img/task-2/VirtualBoxをインストール.png)
 
 - ベーシック/エキスパートモードのどちらかを選択<br>
 [参考サイト](https://gihyo.jp/admin/serial/01/ubuntu-recipe/0832)
@@ -23,7 +23,7 @@
 
 ### 🟡centOSをインストール
 [CentOS公式サイト](http://ftp.jaist.ac.jp/pub/Linux/CentOS/)から下記画像のcentOSをインストール
-![](img/centOS.png)
+![](img/task-2/centOS.png)
 <br>
 <br>
 
@@ -63,8 +63,8 @@
 
 とのこと。
 
-![VirtualBox起動時の注意文1](img/virtualBox注意1.png)
-![VirtualBox起動時の注意文2](img/virtualBox注意2.png)
+![VirtualBox起動時の注意文1](img/task-2/virtualBox注意1.png)
+![VirtualBox起動時の注意文2](img/task-2/virtualBox注意2.png)
 <br>
 
 🟩コマンド
@@ -97,7 +97,7 @@ Host+Home を押すとアクセスできる。
 <br>
 
 2. 日本語を選択→続行を押下
-![言語選択](img/言語選択.png)
+![言語選択](img/task-2/言語選択.png)
 <br>
 <br>
 
@@ -106,37 +106,37 @@ Host+Home を押すとアクセスできる。
 ①ソフトウェアの選択<br>
 サーバー（GUI使用）」を選択。<br>
 これを選択することでインストール完了後に、GUI画面でもLinuxを操作することができる。
-![ソフトウェアの選択](img/ソフトウェアの選択.png)
+![ソフトウェアの選択](img/task-2/ソフトウェアの選択.png)
 <br>
 <br>
 
 ②インストール先 <br>
 ハードディスクが選択されていることを確認 <br>
-![インストール先](img/インストール先.png)
+![インストール先](img/task-2/インストール先.png)
 <br>
 <br>
 
 ③ネットワークとホスト名
 Ehternetをオンにする
-![ネットワークとホスト名](img/ネットワークとホスト名.png)
+![ネットワークとホスト名](img/task-2/ネットワークとホスト名.png)
 <br>
 <br>
 
 ④Rootアカウント
 rootパスワードを設定
-![Rootアカウント](img/Rootアカウント.png)
+![Rootアカウント](img/task-2/Rootアカウント.png)
 <br>
 <br>
 
 ⑤ユーザーの作成
-![ユーザーの作成](img/ユーザーの作成.png)
+![ユーザーの作成](img/task-2/ユーザーの作成.png)
 <br>
 <br>
 
 ①〜⑤を設定したら、”インストール開始”を選択
 
 インストール後、「再起動」を行えば、Linuxに先ほど作成したユーザーでサインインできるようになる。
-![centOSインストール完了](img/centOSインストール完了.png)
+![centOSインストール完了](img/task-2/centOSインストール完了.png)
 <br>
 <br>
 
