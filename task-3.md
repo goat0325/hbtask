@@ -163,7 +163,7 @@ ufwはUbuntsに搭載されているファイアウォールツールとのこ�
   - disable ： firewalldをサーバー起動時に自動で動作しないようにする
   <br>
   <br>
-  [参考サイト](https://linuc.org/study/column/5301/#:~:text=バックナンバー-,firewalldとは,サービスとして実行します%E3%80%82)を見ながら、firewalldが起動しているかを確認
+  [参考サイト](https://linuc.org/study/column/5301/)を見ながら、firewalldが起動しているかを確認
 
 #firewalldが起動しているかを確認<br>
 ```
