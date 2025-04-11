@@ -153,7 +153,7 @@ $ ifconfig
 
 #### 🟡firewalldのport tcp/80を解放
 
-※⚠️ローカルマシンで'http://10.0.2.15'　と、'http://127.0.0.1'　にアクセスしてみるが、アクセスができないとエラーページが表示される。
+※⚠️ローカルマシンで`http://10.0.2.15`　と、`http://127.0.0.1`　にアクセスしてみるが、アクセスができないとエラーページが表示される。
 <br>
 
 [参考サイト:3. "Firewallを設定する"の、「firewalldの443ポートを開ける」](https://qiita.com/yamada-hakase/items/9121be88c94f79e6cc65)
@@ -177,7 +177,8 @@ $ firewall-cmd --reload
 <br>
 <br>
 firewallにport80/tcp　が解放されたことを確認。<br>
-ここで再度ローカルマシンで、'http://10.0.2.15'　と、'http://127.0.0.1'　にアクセスしてみるが、アクセスができないと同様のエラーページが表示される。
+
+ここで再度ローカルマシンで、`http://10.0.2.15`　と、`http://127.0.0.1`　にアクセスしてみるが、アクセスができないと同様のエラーページが表示される。
 <br>
 
 ※⚠️ここで仮想サーバーを調べたところ、「もしかしてローカルマシンじゃなくて仮想サーバー内にブラウザがあるのか？」と気づく<br>
@@ -185,16 +186,17 @@ firewallにport80/tcp　が解放されたことを確認。<br>
 <br>
 <br>
 ①仮想サーバー”ソフトウェア”→”FireFox”でブラウザにアクセス<br>
-②'http://10.0.2.15'、'http://127.0.0.1'　にアクセスすると、Apacheのテストページが表示される。
+
+②`http://10.0.2.15`、`http://127.0.0.1` にアクセスすると、Apacheのテストページが表示される。
 <br>
 <br>
-- 'http://10.0.2.15'
+
+- `http://10.0.2.15`
 
 ![Apacheテストページ10.0.2.15](img/task-4/Apacheテストページ10.0.2.15.png)
 <br>
 
-- 'http://127.0.0.1'
-
+- `http://127.0.0.1'`
 ![Apacheテストページ127.0.0.1](img/task-4/Apacheテストページ127.0.0.1.png)
 <br>
 <br>
@@ -248,6 +250,7 @@ firewallにport80/tcp　が解放されたことを確認。<br>
 
 🟩/var/www/配下に”koyanagi-hbtask.local”フォルダを作成し、その中のindex.htmlに下記を記述。
 <br>
+
 - [参考サイト:HTMLの書き方](https://diveintocode.jp/blogs/Technology/depHtmlIntroduction#blog_3)
 <br>
 ```
@@ -293,7 +296,8 @@ $ sudo def install -y bus-mozc mozc-utils-gui
 $ sudo vim /etc/hosts
 ```
 <br>
-再度　'http://koyanagi-hbtask.local'　にアクセスしたところアクセス成功した。
+
+再度　`http://koyanagi-hbtask.local`　にアクセスしたところアクセス成功した。
 
 ![koyanagi-hbtask.localアクセス成功](img/task-4/koyanagi-hbtask.localアクセス成功.png)
 <br>
@@ -304,7 +308,7 @@ Webブラウザで`http://<自分の名前>-hbtask.local/` にアクセスする
 - 例: `http://wataru-hbtask.local/`
 <br>
 
-上記のように行ったが、'http://saki-hbtask.local'　で、なぜかテストページが開く。<br>
+上記のように行ったが、`http://saki-hbtask.local`　で、なぜかテストページが開く。<br>
 先ほどの参考サイトを見てみると、最後に”Apacheの起動”とあるので、再起動してみた。
 
 #httpd(Apache)を再起動
@@ -312,7 +316,7 @@ Webブラウザで`http://<自分の名前>-hbtask.local/` にアクセスする
 $ sudo systemctl restart httpd
 ```
 
-再度'http://saki-hbtask.local'　にアクセスしたら無事に画面が表示された。
+再度`http://saki-hbtask.local`　にアクセスしたら無事に画面が表示された。
 ![saki-hbtask.localアクセス成功](img/task-4/saki-hbtask.localアクセス成功.png)
 <br>
 <br>
