@@ -253,6 +253,7 @@ firewallにport80/tcp　が解放されたことを確認。<br>
 
 - [参考サイト:HTMLの書き方](https://diveintocode.jp/blogs/Technology/depHtmlIntroduction#blog_3)
 <br>
+
 ```
 <!DOCTYPE html>
 <html>
@@ -281,7 +282,7 @@ $ sudo def install -y bus-mozc mozc-utils-gui
 「次の入力ソースへ切り替える」を選択し、macの”かな”ボタンを選択。日本語入力ができるようになった。
 <br>
 
-この状態で、仮想サーバーのブラウザにて、'http://koyanagi-hbtask.local'　にアクセス。<br>
+この状態で、仮想サーバーのブラウザにて、`http://koyanagi-hbtask.local`　にアクセス。<br>
 下記のような画面が表示された（アクセスできなかった）。
 ![:etc:hosts追加前](img/task-4/:etc:hosts追加前.png)
 <br>
