@@ -180,7 +180,7 @@ Web ブラウザをポイントして、インストール スクリプトを起
 インストール実行→ログイン→ダッシュボード開けた<br>
 
 
-🟩http://koyanagi-hbtask.local/blog/にアクセス
+🟩`http://koyanagi-hbtask.local/blog/`にアクセス
 
 上記にアクセスしたら、サイトが表示された！
 ![Wordpress小柳のテストサイト](img/task-7/Wordpress小柳のテストサイト.png)
